@@ -95,7 +95,7 @@ jupyter notebook problems.ipynb
 
 ## Problems
 
-- ### Problem 1: Extending the Lady Tasting Tea
+### Problem 1: Extending the Lady Tasting Tea
 Based on the famous experiment by Ronald Fisher, this exercise extends this idea to explore permutation tests and the logic of hypothesis testing. I compare the 12-cup extension to the original 8-cup problem, discussing whether the p-value threshold should be extended or relaxed in the new version.
   - **References:** 
     - *Background of Lady Tasting Tea Experiment:* https://medium.com/data-science/lady-tasting-tea-a-bayesian-approach-1b0b94ca1530
@@ -104,21 +104,21 @@ Based on the famous experiment by Ronald Fisher, this exercise extends this idea
     - *numpy.random.choice() documentation:* https://numpy.org/doc/2.1/reference/random/generated/numpy.random.choice.html
     - *math.comb() documentation:* https://docs.python.org/3/library/math.html#math.comb
 
-- ### Problem 2: Normal Distribution
+### Problem 2: Normal Distribution
 This problem focuses on the properties of the normal distribution. It involves simulating data, visualizing distributions, and calculating probabilities. I explored the difference between the population standard deviation and the sample standard deviation.
   - **References:**
     - *Allen Downey: Which Standard Deviation?* https://www.allendowney.com/blog/2024/06/08/which-standard-deviation/
     - *ChatGPT: Creating transparent histogram of SDs:* https://chatgpt.com/share/691b2267-2d10-800c-9a24-fe39970893b9
     - *Investopedia: The Law of Large Numbers:* https://www.investopedia.com/terms/l/lawoflargenumbers.asp
 
-- ### Problem 3: t-Tests
+### Problem 3: t-Tests
 This problem looks into independent two-sample t-tests. In this problem, I tun a simulation in which I compare samples of varying means, explore p-values, and interpret the results. I also note the change in Type II error rate based on the change in means.
   - **References:**
     - *Wikipedia: Type I and II errors:* https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
     - *Lecture notes about t-Tests and ANOVA:* https://github.com/ianmcloughlin/applied-statistics/blob/main/materials/anova.ipynb
     - *Copilot: Help with writing code for t-test simulation:* https://copilot.microsoft.com/shares/KZJYtYbm5fxb8ntvFFHbq
 
-- ### Problem 4: ANOVA
+### Problem 4: ANOVA
 In this problem, I compare ANOVA results with multiple t-tests, illustrating why ANOVA is the preferred approach for multi-group comparisons.
     - **References:**
       - *Wikipedia: ANOVA:* https://en.wikipedia.org/wiki/Analysis_of_variance
