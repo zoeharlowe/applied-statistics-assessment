@@ -22,6 +22,11 @@ by Zoe McNamara Harlowe
 - Required packages (listed in `requirements.txt`):  
   ```bash
   numpy
+  scipy.stats
+  itertools
+  math
+  matplotlib.pyplot
+  collections
 
 ---
 
@@ -64,7 +69,12 @@ jupyter notebook problems.ipynb
 
 ## Libraries
 
-- Numpy: https://numpy.org/doc/2.2/
+- Numpy: https://numpy.org/doc/2.3/user/absolute_beginners.html
+- Scipy: https://docs.scipy.org/doc/scipy/reference/stats.html
+- Itertools: https://docs.python.org/3/library/itertools.html
+- Matplotlib: https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html
+- Math: https://docs.python.org/3/library/math.html
+- Collections: https://docs.python.org/3/library/collections.html
 
 --- 
 
@@ -99,14 +109,14 @@ Applied Statistics Assessment:
     - numpy.random.choice() documentation: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.choice.html
     - math.comb() documentation: https://docs.python.org/3/library/math.html#math.comb
 
-- Problem 2: Normal Distribution
+- ### Problem 2: Normal Distribution
   - This problem focuses on the properties of the normal distribution. It involves simulating data, visualizing distributions, and calculating probabilities. I explored the difference between the population standard deviation and the sample standard deviation.
   - **References:**
     - Allen Downey: Which Standard Deviation? https://www.allendowney.com/blog/2024/06/08/which-standard-deviation/
     - ChatGPT: Creating transparent histogram of SDs: https://chatgpt.com/share/691b2267-2d10-800c-9a24-fe39970893b9
     - Investopedia: The Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp
 
-- Problem 3: t-Tests
+- ### Problem 3: t-Tests
   - This problem looks into independent two-sample t-tests. In this problem, I tun a simulation in which I compare samples of varying means, explore p-values, and interpret the results. I also note the change in Type II error rate based on the change in means.
   - **References:**
     - Wikipedia: Type I and II errors: https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
