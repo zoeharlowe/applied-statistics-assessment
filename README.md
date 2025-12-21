@@ -22,11 +22,8 @@ by Zoe McNamara Harlowe
 - Required packages (listed in `requirements.txt`):  
   ```bash
   numpy
-  scipy.stats
-  itertools
-  math
-  matplotlib.pyplot
-  collections
+  scipy
+  matplotlib
 
 ---
 
@@ -67,7 +64,7 @@ jupyter notebook problems.ipynb
 
 ---
 
-## Libraries
+## Libraries & Packages
 
 - Numpy: https://numpy.org/doc/2.3/user/absolute_beginners.html
 - Scipy: https://docs.scipy.org/doc/scipy/reference/stats.html
